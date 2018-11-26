@@ -8,5 +8,4 @@ git reset origin/master && \
 git checkout origin/master -- . && \
 cp .env-dist .env && \
 docker-compose up -d && \
-docker-compose exec web bash -c 'composer install -d /app' && \
-rm ${0}
+docker-compose exec web bash -c 'composer install -d /app'
