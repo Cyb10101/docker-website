@@ -6,7 +6,8 @@ services:
 
     #build: .docker/web
 
-    image: cyb10101/php-apache-dev:7.2
+    image: cyb10101/php-apache-dev:latest
+    #image: cyb10101/php-apache-dev:7.2
     #image: cyb10101/php-apache-dev:7.1
     #image: cyb10101/php-apache-dev:7.0
     #image: cyb10101/php-apache-dev:5.6
